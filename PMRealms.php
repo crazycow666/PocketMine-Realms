@@ -2,7 +2,7 @@
 
 /*
 __PocketMine Plugin__
-name=PocketMine Realms
+name=Cow's pocket mine adventure
 description=Automatic server listing on PocketMine Realms and more features.
 version=0.1
 author=shoghicp
@@ -19,9 +19,9 @@ class PMRealms implements Plugin{
 	
 	public function init(){
 		$this->config = new Config($this->api->plugin->configPath($this)."config.yml", CONFIG_YAML, array(
-			"ownerName" => "",
-			"externalAddress" => "",
-			"externalPort" => "",
+			"ownerName" => "crazycow666",
+			"externalAddress" => "121.79.30.136",
+			"externalPort" => "121.79.30.136",
 		));
 		
 		$error = 0;
